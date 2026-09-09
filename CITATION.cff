@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+title: "HL-Repair: Temporal Hand Labanotation Priors for Robust Control of Frozen Video Diffusion"
+message: "If you use this code, please cite the accompanying paper."
+type: software
+authors:
+  - family-names: Lu
+    given-names: Haotian
+    email: haotialu666@gmail.com
+  - family-names: Zhang
+    given-names: Xiaoping
+    email: xpzhang@ieee.org
+version: 1.0.0
+date-released: 2026-09-09
+license: MIT

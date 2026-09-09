@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+build/
+dist/
+*.egg-info/
+data/
+outputs/
+models/
+*.mp4
+*.gif
+.DS_Store

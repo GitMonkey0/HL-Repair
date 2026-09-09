@@ -1,0 +1,12 @@
+name: hl-repair
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy=1.26
+  - pytorch=2.1
+  - pytest=8
+  - pip
+  - pip:
+      - -e .

@@ -1,0 +1,22 @@
+{
+  "scope": "one 17-frame x 20-vector hand window, batch size 1",
+  "device": "cpu",
+  "threads": 1,
+  "warmups": 30,
+  "timed_runs": 300,
+  "fastpath_enabled": false,
+  "training_parameter_count": 1906372,
+  "deployment_parameter_count": 1806012,
+  "removed_symbol_head_parameters": 100360,
+  "latency_ms": {
+    "median": 1.9900085,
+    "mean": 1.9985083166666668,
+    "p05": 1.9622217,
+    "p95": 2.04538745
+  },
+  "checkpoint": "labancode/results/hl_stb_curriculum_repeats/seed_2801_hl_aux_only.pt",
+  "checkpoint_sha256": "002fcd79f2ab6ad58deb1491929cc80b162345100bd17702ced08c58d394d5cb",
+  "benchmark_sha256": "2f47756935601c5726e8361dd18dc2bd515ef064721aa59aa7891cf26ed0b5b9",
+  "torch_version": "2.9.0+cpu",
+  "platform": "Linux-5.10.135.bsk.6-amd64-x86_64-with-glibc2.35"
+}

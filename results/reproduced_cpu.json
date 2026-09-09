@@ -1,0 +1,36 @@
+{
+  "annotations": "../datasets/STB.annotations/STB_test.json",
+  "corruption_seed": 9917,
+  "sequences": {
+    "B1Counting": {
+      "frames": 1500,
+      "windows": 88
+    },
+    "B1Random": {
+      "frames": 1500,
+      "windows": 88
+    }
+  },
+  "windows": 176,
+  "realized_outliers": 5932,
+  "realized_stale": 4432,
+  "trigger_percent": 100.0,
+  "corrupted": {
+    "mean_angular_error_deg": 13.241168022155762,
+    "p95_angular_error_deg": 89.908935546875,
+    "hl_symbol_accuracy_percent": 82.79412078857422,
+    "direction_acceleration_error": 0.6003938317298889
+  },
+  "median_9": {
+    "mean_angular_error_deg": 4.258885383605957,
+    "p95_angular_error_deg": 10.220062255859375,
+    "hl_symbol_accuracy_percent": 91.2616958618164,
+    "direction_acceleration_error": 0.10516221821308136
+  },
+  "hl_repair": {
+    "mean_angular_error_deg": 2.9164938926696777,
+    "p95_angular_error_deg": 8.312570571899414,
+    "hl_symbol_accuracy_percent": 92.7423095703125,
+    "direction_acceleration_error": 0.08258561789989471
+  }
+}

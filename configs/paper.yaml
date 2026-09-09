@@ -1,0 +1,20 @@
+dataset: STB
+window_length: 17
+train_stride: 4
+test_stride: 17
+seed: 2801
+test_corruption_seed: 9917
+model:
+  hidden: 192
+  layers: 4
+  heads: 6
+  hl_smoothing_window: 3
+  hl_temperature: 0.24
+training:
+  epochs: 40
+  batch_size: 128
+  learning_rate: 0.0003
+  hl_weight: 0.003
+  hl_geometry_weight: 1.0
+inference:
+  anomaly_gate_deg: 3.75
