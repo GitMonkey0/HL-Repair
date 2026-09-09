@@ -15,6 +15,10 @@ authors = [
 ]
 dependencies = ["numpy>=1.24", "torch>=2.1"]
 
+[project.urls]
+Repository = "https://github.com/GitMonkey0/HL-Repair"
+Issues = "https://github.com/GitMonkey0/HL-Repair/issues"
+
 [project.optional-dependencies]
 test = ["pytest>=8.0"]
 

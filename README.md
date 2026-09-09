@@ -26,6 +26,7 @@ from .713 to .884 and exceeds centered median-9 by .035. See the
 Python 3.10 or newer is required.
 
 ```bash
+git clone https://github.com/GitMonkey0/HL-Repair.git
 cd HL-Repair
 python -m venv .venv
 source .venv/bin/activate
